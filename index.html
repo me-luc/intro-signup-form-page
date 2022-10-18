@@ -32,18 +32,67 @@
 						<span>Try it free 7 days</span> then $20/mo. thereafter
 					</p>
 				</div>
-				<div class="form">
-					<div class="rec-form">First Name</div>
-					<div class="rec-form">Last Name</div>
-					<div class="rec-form">Email Address</div>
-					<div class="rec-form">Password</div>
+				<div a class="form">
+					<div class="form-space">
+						<input
+							onclick="highlight(this)"
+							type="name"
+							class="rec-form"
+							id="error"
+							placeholder="First Name" />
+						<img
+							src="./images/icon-error.svg"
+							class="hide"
+							alt="icon" />
+						<p>Error message</p>
+					</div>
+					<div class="form-space">
+						<input
+							onclick="highlight(this)"
+							type="name"
+							class="rec-form"
+							placeholder="Last Name" />
+						<img
+							src="./images/icon-error.svg"
+							class="hide"
+							alt="icon" />
+						<p>Error message</p>
+					</div>
+					<div class="form-space">
+						<input
+							onclick="highlight(this)"
+							type="email"
+							class="rec-form"
+							placeholder="Email Address" />
+						<img
+							src="./images/icon-error.svg"
+							class="hide"
+							alt="icon" />
+						<p>Error message</p>
+					</div>
+					<div class="form-space">
+						<input
+							onclick="highlight(this)"
+							type="password"
+							class="rec-form"
+							placeholder="Password" />
+						<img
+							src="./images/icon-error.svg"
+							class="hide"
+							alt="icon" />
+						<p>Error message</p>
+					</div>
 					<button>CLAIM YOUR FREE TRIAL</button>
 					<p>
-						By clicking the button, you are agreeing to our Terms
-						and Services
+						By clicking the button, you are agreeing to our
+						<a href="/images/bg-intro-desktop.png" target="_blank"
+							><span>Terms and Services</span></a
+						>
 					</p>
 				</div>
 			</div>
 		</div>
+
+		<script src="script.js"></script>
 	</body>
 </html>

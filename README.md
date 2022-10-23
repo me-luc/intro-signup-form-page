@@ -12,8 +12,6 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
     -   [Built with](#built-with)
 -   [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -36,7 +34,7 @@ Users should be able to:
 
 ### Links
 
--   Live Site URL: [Click here](https://me-luc.github.io/interactive-rating-landing-page/)
+-   Live Site URL: [Click here](https://me-luc.github.io/intro-signup-form-page/)
 
 ## My process
 

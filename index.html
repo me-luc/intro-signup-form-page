@@ -27,27 +27,30 @@
 				</p>
 			</div>
 			<div class="square2">
-				<div class="trial-rec">
+				<a class="trial-rec" href="#" target="_blank">
 					<p>
 						<span>Try it free 7 days</span> then $20/mo. thereafter
 					</p>
-				</div>
+				</a>
 				<div a class="form">
 					<div class="form-space">
 						<input
 							onclick="highlight(this)"
+							oninput="checkError(this)"
 							type="name"
 							class="rec-form first-name"
 							placeholder="First Name" />
 						<img
 							src="./images/icon-error.svg"
 							class="hide"
+							S
 							alt="icon" />
 						<p class="hide">Error message</p>
 					</div>
 					<div class="form-space">
 						<input
 							onclick="highlight(this)"
+							oninput="checkError(this)"
 							type="name"
 							class="rec-form last-name"
 							placeholder="Last Name" />
@@ -60,6 +63,7 @@
 					<div class="form-space">
 						<input
 							onclick="highlight(this)"
+							oninput="checkError(this)"
 							type="email"
 							class="rec-form email"
 							placeholder="Email Address" />
@@ -72,6 +76,7 @@
 					<div class="form-space">
 						<input
 							onclick="highlight(this)"
+							oninput="checkError(this)"
 							type="password"
 							class="rec-form password"
 							placeholder="Password" />
@@ -82,10 +87,12 @@
 						<p class="hide">Error message</p>
 						<p class="hide">Error message</p>
 					</div>
-					<button onclick="claim()">CLAIM YOUR FREE TRIAL</button>
+					<button href="#" onclick="claim()">
+						CLAIM YOUR FREE TRIAL
+					</button>
 					<p>
 						By clicking the button, you are agreeing to our
-						<a href="/images/bg-intro-desktop.png" target="_blank"
+						<a href="#" target="_blank"
 							><span>Terms and Services</span></a
 						>
 					</p>
